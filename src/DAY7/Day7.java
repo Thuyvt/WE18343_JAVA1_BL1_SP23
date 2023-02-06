@@ -40,7 +40,7 @@ public class Day7 {
             // C2
             min = Math.min(min, mangSo[i]);
         }
-        System.out.printf("So nho nhat trong mang la %d", min);
+        System.out.printf("So nho nhat trong mang la %d\n", min);
         // Tính tổng các số chia hết cho 3
         int sum = 0, count = 0;
         for (int i = 0; i < mangSo.length; i++) {
